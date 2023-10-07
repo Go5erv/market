@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>جو ماركت</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    a{
+      font-size: 20px;
+      color: #2196f3;
+      font-weight: bold;
+    }
+    .ads {
+      width: 100%;
+    }
+    .ads img {
+      width: 100%;
+    }
+    button {
+    padding: 15px;
+    width: 100px;
+    margin: 5px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 15px;
+    background-color: #2196f3;
+    
+    }
+  .card {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card #ch {
+    display: none;
+}
+  .card #ch:checked ~ .ah {
+    display: block;
+}
+  .card #ch:checked ~ .as {
+    display: none;
+}
+  .card .ah {
+    display: none;
+}
+  .card .as {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+/* one */
+.card1 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card1 #ch1 {
+    display: none;
+}
+  .card1 #ch1:checked ~ .ah1 {
+    display: block;
+}
+  .card1 #ch1:checked ~ .as1 {
+    display: none;
+}
+  .card1 .ah1 {
+    display: none;
+}
+  .card1 .as1 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+.card2 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card2 #ch2 {
+    display: none;
+}
+  .card2 #ch2:checked ~ .ah2 {
+    display: block;
+}
+  .card2 #ch2:checked ~ .as2 {
+    display: none;
+}
+  .card2 .ah2 {
+    display: none;
+}
+  .card2 .as2 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+/* four */
+.card4 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card4 #ch4 {
+    display: none;
+}
+  .card4 #ch4:checked ~ .ah4 {
+    display: block;
+}
+  .card4 #ch4:checked ~ .as4 {
+    display: none;
+}
+  .card4 .ah4 {
+    display: none;
+}
+  .card4 .as4 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+.card4 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card4 #ch4 {
+    display: none;
+}
+  .card4 #ch4:checked ~ .ah4 {
+    display: block;
+}
+  .card4 #ch4:checked ~ .as4 {
+    display: none;
+}
+  .card4 .ah4 {
+    display: none;
+}
+  .card4 .as4 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+/* five */
+.card5 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card5 #ch5 {
+    display: none;
+}
+  .card5 #ch5:checked ~ .ah5 {
+    display: block;
+}
+  .card5 #ch5:checked ~ .as5 {
+    display: none;
+}
+  .card5 .ah5 {
+    display: none;
+}
+  .card5 .as5 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+.card5 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card5 #ch5 {
+    display: none;
+}
+  .card5 #ch5:checked ~ .ah5 {
+    display: block;
+}
+  .card5 #ch5:checked ~ .as5 {
+    display: none;
+}
+  .card5 .ah5 {
+    display: none;
+}
+  .card5 .as5 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+/* six */
+.card6 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card6 #ch6 {
+    display: none;
+}
+  .card6 #ch6:checked ~ .ah6 {
+    display: block;
+}
+  .card6 #ch6:checked ~ .as6 {
+    display: none;
+}
+  .card6 .ah6 {
+    display: none;
+}
+  .card6 .as6 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+.card6 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card6 #ch6 {
+    display: none;
+}
+  .card6 #ch6:checked ~ .ah6 {
+    display: block;
+}
+  .card6 #ch6:checked ~ .as6 {
+    display: none;
+}
+  .card6 .ah6 {
+    display: none;
+}
+  .card6 .as6 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+</style>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+      <div class="container left">
+        <a href="index.html" class="logo">جو سيرف</a>
+        <ul class="main-nav left">
+          <li><a href="index.html">الرئيسية</a></li>
+       
+          </li>
+        </ul>
+      </div>
+    </div>
+<!-- one -->
+    <div class="gallery" id="gallery" style="padding-top: 10px;">
+    <marquee class="" direction="right" style="padding-bottom: 10px;color: red;font-size:25px">نزل اعلانك مع جو سيرف نستدهف بان نكون رقم واحد فى المملكه فقط 500 ريال لفتره محدوده   </marquee>  
+      <h2 class="main-title" style="margin: 0 auto 20px; display: none;">  </h2>
+      <div class="container" style="justify-items: center;">
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+          <div class="image" style="position: relative;
+          overflow: hidden;">
+      <img class="mySlide" src="new/1.jpg">
+      <img class="mySlide" src="new/2.jpg">
+      <img class="mySlide" src="new/3.jpg">
+      <img class="mySlide" src="new/4.jpg">
+      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;التالى</button>
+      <button class="w3-button w3-display-right" onclick="plusDivs(+1)">السابق&#10095;</button>
+      <div class="card">
+        <input id="ch" type="checkbox">
+        <h2>شقة للايجار الرياض حى اليرموك</h2>
+        <p>الرياض شقه للايجار في حي اليرموك الوصف /غرفتين نوم + صاله+ حمام+ مطبخ
+          راكب مكيفات وراكب مطبخ
+          تشطيب جيد مساحة الغرف كبيره
+          الفئه /عوائل
+          الشقه /داخل عماره لدور الثاني علوي
+          الايجار سنوي25الف  شامل مياه وكهرب</p>
+        <div class="ah">
+            <p>التواصل0590502893</p>
+            <label class="as" for="ch">عرض اقل </label>    
+        </div>
+        <label class="as" for="ch"> عرض المزيد</label>
+      </div>
+            <a href="https://wa.me/+201016478903">اطلب الان</a>
+          </div>
+        </div>
+        <!-- one -->
+          <div class="ads" style="padding: 15px;
+          background-color: white;
+          box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+          
+          <div class="image" style="position: relative;
+            overflow: hidden;">
+          <img class="mySlides" src="new/6.jpg">
+          <img class="mySlides" src="new/7.jpg">
+          <img class="mySlides" src="new/8.jpg">
+          <img class="mySlides" src="new/9.jpg">
+          <img class="mySlides" src="new/10.jpg">
+          <button class="w3-button w3-display-left" onclick="plusDiv(-1)" >&#10094; التالى </button>
+          <button class="w3-button w3-display-right" onclick="plusDiv(+1)" >السابق&#10095; </button>
+          <div class="card1">
+            <input id="ch1" type="checkbox">
+            <h2>سيارة كاميري 2004</h2>
+            <p>النوع :كامري 
+              الموديل :2004
+              الممشى :90
+              الاستماره والفحص :جديد
+              المواصفات :فل كامل 
+              كفرات جدد
+              بطارية جديد 
+              استخدام شخصي محافظ عليه
+              </p>
+            <div class="ah1">
+                <p>السعر :7000 ألف
+                  للتواصل +966592145762
+                </p>
+                <label class="as1" for="ch1">عرض اقل</label>  
+            </div>
+            <label class="as1" for="ch1">عرض المزيد</label>
+          </div>
+          <a href="https://wa.me/+201016478903">اطلب الان</a>
+          </div>
+        </div>
+        <!-- two -->
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+        
+        <div class="image" style="position: relative;
+          overflow: hidden;">
+        <img class="mySlides3" src="new/11.jpg">
+        <img class="mySlides3" src="new/12.jpg">
+        <img class="mySlides3" src="new/13.jpg">
+        <img class="mySlides3" src="new/14.jpg">
+        <img class="mySlides3" src="new/15.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDiv3(-1)">&#10094; التالى</button>
+        <button class="w3-button w3-display-right" onclick="plusDiv3(+1)">السابق&#10095;</button>
+        <div class="card2">
+          <input id="ch2" type="checkbox">
+          <h2>هيونداي النترا 2015</h2>
+          <p>هيونداي انترا 
+            الموديل2015
+            الممشة 130
+            كير توماتيك  
+            اللون ابيض4سلندر
+            السعر 25الف</p>
+          <div class="ah2">
+              <p>تواصل معنا 592145762</p>
+              <label class="as2" for="ch2">عرض اقل</label>  
+          </div>
+          <label class="as2" for="ch2">عرض المزيد</label>
+        </div>
+        <a href="https://wa.me/+201016478903">اطلب الان</a>
+        </div>
+      </div>
+        <!-- four -->
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+        
+        <div class="image" style="position: relative;
+          overflow: hidden;">
+        <img class="mySlides4" src="new/16.jpg">
+        <img class="mySlides4" src="new/17.jpg">
+        <img class="mySlides4" src="new/18.jpg">
+        <img class="mySlides4" src="new/19.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDiv4(-1)">&#10094; التالى</button>
+        <button class="w3-button w3-display-right" onclick="plusDiv4(+1)">السابق&#10095;</button>
+        <div class="card4">
+          <input id="ch4" type="checkbox">
+          <h2>  كونا واجن 2023</h2>
+          <p>للبيع 
+            كونا واجن 
+            مدل 2023
+            الموتر على شرط الفحص 
+            ستماره مجدد 
+            السوم كاش 50الف 
+            متاح قصاد</p>
+          <div class="ah4">
+              <p>للتوصل 0592118543  </p>
+              <label class="as4" for="ch4">عرض اقل</label>  
+          </div>
+          <label class="as4" for="ch4">عرض المزيد</label>
+        </div>
+        <a href="https://wa.me/+201016478903">اطلب الان</a>
+        </div>
+      </div>
+        <!-- five -->
+        <!-- four -->
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+        
+        <div class="image" style="position: relative;
+          overflow: hidden;">
+        <img class="mySlides5" src="new/20.jpg">
+        <img class="mySlides5" src="new/21.jpg">
+        <img class="mySlides5" src="new/22.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDiv5(-1)">&#10094; التالى</button>
+        <button class="w3-button w3-display-right" onclick="plusDiv5(+1)">السابق&#10095;</button>
+        <div class="card5">
+          <input id="ch5" type="checkbox">
+          <h2> شقه للايجار  </h2>
+          <p>
+            السعوديه الرياض شقه للايجار في حي اليرموك غرفتين وصاله وحمام ومطبخ ومكيفات راكب
+الايجار سنوي 20الف شام المياه وكهرب وفي تفاوض في السعر
+          </p>
+          <div class="ah5">
+              <p>للتوصل 546989372  </p>
+              <label class="as5" for="ch5">عرض اقل</label>  
+          </div>
+          <label class="as5" for="ch5">عرض المزيد</label>
+        </div>
+        <a href="https://wa.me/+201016478903">اطلب الان</a>
+        </div>
+      </div>
+        <!-- six -->
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+        
+        <div class="image" style="position: relative;
+          overflow: hidden;">
+        <img class="mySlides6" src="new/23.jpg">
+        <img class="mySlides6" src="new/24.jpg">
+        <img class="mySlides6" src="new/25.jpg">
+        <img class="mySlides6" src="new/26.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDiv6(-1)">&#10094; التالى</button>
+        <button class="w3-button w3-display-right" onclick="plusDiv6(+1)">السابق&#10095;</button>
+        <div class="card6">
+          <input id="ch6" type="checkbox">
+          <h2>  السياره مارسيدسE200   2019  </h2>
+          <p>السياره مارسيدس النوع E200موديل 2019الوكيل سعودي؛ العداد: 86000kmالسعر 80000ألف كاش فقط نعطيك ضمان لمده عام كامل او 20الف kmقابل للتمديد؟؟؟شركه حمايه السعودية محرك *جربكس*الدفرنس*نضام تكييف*ثلاجه المحرك*علبه الفرامل*علبه الدريكسون </p>
+          <div class="ah6">
+              <p>برز المواصفات&وجنوط AMGسقف بانوراما دخول ذكي بصمه شنطت كهرباء ابواب شفط شمعات زينون اسطبات اماميه وخلفيه وكشافات LEDكاميرات محيطيه  360درجه رادار مانع تصادم حساسات اماميه وخلفيه نقط عمياء سنتر لوك زجاج ومرايا كهرباء كراسي أماميه كهرباء مقاعد تسخين تبريد +مساج +ذاكرةللمقاعد تحكم طاره للمسجل ـللهاتفــ مثبت سرعه _تعشيق_F1 شاشه نفجيشن _بلوتوث _راديو _USB _aux كار بلاي أضاءه متعدده الالوان تحكم بأداء المحرك بعده وضعيات نظام توفير البنزين ECO ستاره خلفيه كهرباء ديكور خشبي كلاسيكي بلاك مع أكسسوار كروم عداد ديجيتال مع كربون فايبر _وغيرها من الموصفات المعروفه لهذه0592145762   </p>
+              <label class="as6" for="ch6">عرض اقل</label>  
+          </div>
+          <label class="as6" for="ch6">عرض المزيد</label>
+        </div>
+        <a href="https://wa.me/+201016478903">اطلب الان</a>
+        </div>
+      </div>
+        <!-- seven -->
+      </div>
+    </div>
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <h3>جو-سيرف</h3>
+          <ul class="social">
+            <li>
+              <a href="https://www.facebook.com/Go5erv/" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/go-serv-382618291/" class="linkedin">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/goserv2015/" class="instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">
+           تعتبر أفضل شركات التسويق الإلكتروني إحترافية
+          </p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="https://api.whatsapp.com/send/?phone=00201016478903">واتس اب</a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=00201008075701">واتس اب</a></li>
+            <li><a href="https://twitter.com/GoServ2015/">تويتر</a></li>
+            <li><a href="https://www.tiktok.com/@goserv">تيك توك</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">مصر, المنصورة,طلخا </div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">مواعيد العمل: من 09:00 الى 18:00</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+201016478903</span>
+            </div>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <img src="imgs/logo.png" alt="" />
+        </div>
+      </div>
+      <p class="copyright">جميع الحقوق محفوظة  © 2023  <a href="https://go5erv.github.io/2023">جو-سيرف</a> </p>
+    </div>
+    <a style="position:fixed;z-index: 99;bottom:15px;right:15px"  href="https://wa.me/+201016478903"> <img style="width:70px;" src="whatscall.gif"></a>
+<!-- End Footer -->
+    <script src="js/main.js"></script><!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11346733078">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-11346733078');
+    </script>
+    <script>var slideIndex = 1;
+      showDiv(slideIndex);
+      
+      function plusDiv(n) {
+        showDiv(slideIndex += n);
+      }
+      
+      function showDiv(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+      }</script>
+      <!-- one -->
+      <script>
+      var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlide");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length} ;
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }</script>
+<!-- two -->
+<script>
+  var slideIndex = 1;
+    showDiv3(slideIndex);
+    
+    function plusDiv3(n) {
+      showDiv3(slideIndex += n);
+    }
+    
+    function showDiv3(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides3");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }</script>
+<!-- three -->
+<script>
+  var slideIndex = 1;
+    showDiv4(slideIndex);
+    
+    function plusDiv4(n) {
+      showDiv4(slideIndex += n);
+    }
+    
+    function showDiv4(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides4");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }</script>
+<!-- four -->
+<script>
+  var slideIndex = 1;
+    showDiv5(slideIndex);
+    
+    function plusDiv5(n) {
+      showDiv5(slideIndex += n);
+    }
+    
+    function showDiv5(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides5");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }</script>
+<!-- five -->
+<script>
+  var slideIndex = 1;
+    showDiv6(slideIndex);
+    
+    function plusDiv6(n) {
+      showDiv6(slideIndex += n);
+    }
+    
+    function showDiv6(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides6");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }</script>
+<!-- six -->
+  </body>
+</html>
